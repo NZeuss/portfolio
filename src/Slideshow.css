@@ -1,0 +1,96 @@
+.slide-container {
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .fade-in {
+    opacity: 1;
+  }
+  
+  .fade-out {
+    opacity: 0;
+  }
+  
+  
+  .slide-hdr {
+    text-align: right;
+    margin-top: 1rem;
+    font-size: 4rem;
+    color: white;
+    padding: 1rem;
+    max-width: 40%;
+    font-family: "danh-da", sans-serif;
+  }
+
+  .slide-sub {
+    text-align: right;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    padding: 1rem;
+  }
+
+  .slide-sub a{
+    text-align: right;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+  }
+
+  
+
+  .line {
+    width: 200px;
+    height: 4px;
+    background-color:chartreuse;
+    margin: 1rem;
+  }
+
+  .slide-overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.3) 30%, rgba(0, 0, 0, 0.7));
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: top;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 2rem;
+    
+  }
+
+  .slide-progress-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.5rem;
+  }
+
+  .slide-progress-line{
+    height: 100%;
+    background-color: chartreuse;
+    
+  }
+  
+  @keyframes progressAnim {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
