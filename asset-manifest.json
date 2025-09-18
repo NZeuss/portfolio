@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.90074c6a.css",
+    "main.js": "/static/js/main.97b9bf0b.js",
+    "static/js/453.96453769.chunk.js": "/static/js/453.96453769.chunk.js",
+    "static/media/self.png": "/static/media/self.d0cf358f0a1ed12e7ded.png",
+    "static/media/bluebeard_hallway.png": "/static/media/bluebeard_hallway.db79e5c678b037c22871.png",
+    "static/media/LitSideCam.png": "/static/media/LitSideCam.2ace48b378f26a6a5b2f.png",
+    "static/media/feagi.png": "/static/media/feagi.6ed57456b5361c4d01ad.png",
+    "static/media/logo.png": "/static/media/logo.b38c0a85fe3d8afb26d0.png",
+    "index.html": "/index.html",
+    "main.90074c6a.css.map": "/static/css/main.90074c6a.css.map",
+    "main.97b9bf0b.js.map": "/static/js/main.97b9bf0b.js.map",
+    "453.96453769.chunk.js.map": "/static/js/453.96453769.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90074c6a.css",
+    "static/js/main.97b9bf0b.js"
+  ]
+}
